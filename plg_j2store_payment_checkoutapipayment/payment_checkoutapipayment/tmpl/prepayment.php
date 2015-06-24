@@ -98,7 +98,7 @@ function j2storecheckoutapipaymentdirectSubmit(button) {
 			console.log(json);
 			if (json['error']) {
 				form.find('.plugin_error').after('<span class="j2error">' + json['error']+ '</span>');
-				form.find('.plugin_error_instruction').after('<br /><span class="j2error"><?php echo JText::_('J2STORE_CHECKOUTAPI_ON_ERROR_INSTRUCTIONS'); ?></span>');
+				form.find('.plugin_error_instruction').after('<br /><span class="j2error"><?php echo JText::_('J2STORE_CHECKOUTAPIPAYMENT_ON_ERROR_INSTRUCTIONS'); ?></span>');
 				$(button).val('<?php echo JText::_('J2STORE_CHECKOUTAPIPAYMENT_ERROR_PROCESSING')?>');
 			}
 

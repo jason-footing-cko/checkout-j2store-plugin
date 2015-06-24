@@ -52,10 +52,9 @@
 				<option value="No">J2STORE_NO</option>
 			</field>			
 
-			<field name="endpoint" type="radio" default="Live" label="checkoutapipayment_endpoint" description="checkoutapipayment_endpoint_desc">
-				<option value="Dev">J2STORE_CHECKOUTAPIPAYMENT_DEV</option>
-				<option value="Preprod">J2STORE_CHECKOUTAPIPAYMENT_PREPROD</option>
-				<option value="Live">J2STORE_CHECKOUTAPIPAYMENT_LIVE</option>
+			<field name="endpoint" type="radio" default="sandbox" label="checkoutapipayment_endpoint" description="checkoutapipayment_endpoint_desc">
+				<option value="sandbox">J2STORE_CHECKOUTAPIPAYMENT_DEV</option>
+				<option value="live">J2STORE_CHECKOUTAPIPAYMENT_LIVE</option>
 			</field>
 			
 			
